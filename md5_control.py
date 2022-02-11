@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-# program to process md5sum for a series of files
-# need a text file with md5sum and corresponding filenames, a directory containing the files to be controlled
+# program to process md5sum for a list of files contained in a directory
+# need a .txt file with md5sum and corresponding filenames on the same raw separated by "\s", a directory containing the files to be controlled
 import os
 import hashlib
 import sys, getopt
