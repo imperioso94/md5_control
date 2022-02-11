@@ -5,7 +5,7 @@ Given a directory containing the files to be controlled and a text file listing 
 
 ### usage :       ./md5_control.py -d <files_directory> -m <md5file.txt>
 
-  <files_directory> is the directory containing the files
-  <md5file.txt> is the text file
+  * <files_directory> is the directory containing the files
+  * <md5file.txt> is the text file
 
   both arguments must contain full paths 
