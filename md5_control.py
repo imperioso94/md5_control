@@ -72,7 +72,7 @@ for file in file_list:
         total +=1
     a_file.close()
 
-stdout_fileno.write("\n Number of corrupted files: "+str(count)+"\n Total number of files controlled"+str(total)+"\n")
+stdout_fileno.write("\n Number of corrupted files: "+str(count)+"\n Total number of files controlled: "+str(total)+"\n")
 
 
 
